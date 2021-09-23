@@ -4,9 +4,15 @@ import org.testng.annotations.Test;
 
 public class OrgTest {
 	@Test(groups = "SmokeTest")
-	public void CreatOrgTest()
+	public void CreatOrgTest() 
+	
+	
 	{
+		
 		System.out.println("execute CreatOrgTest ");
+		String BROWSER = System.getProperty("browser");
+		String ENV = System.getProperty("url");
+		System.out.println("BROWSER====>"+BROWSER +"   ,URL===>"+ ENV);
 	}
  
 	@Test(groups = "RegressionTest")
