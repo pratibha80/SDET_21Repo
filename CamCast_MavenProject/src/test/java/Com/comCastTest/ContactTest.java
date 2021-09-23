@@ -7,6 +7,10 @@ public class ContactTest {
 	public void CreatContactTest()
 	{
 		System.out.println("execute CreatContactTest ");
+		System.out.println("execute CreatOrgTest ");
+		String BROWSER = System.getProperty("chrome");
+		String ENV = System.getProperty("http://testenv.com");
+		System.out.println("BROWSER====>"+BROWSER +"   ,URL===>"+ ENV);
 	}
  
 	@Test(groups = "RegressionTest")
