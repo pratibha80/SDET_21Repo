@@ -30,7 +30,7 @@
 	</dependencies>
 	<profiles>
 		<profile>
-			<id>rR</id>
+			<id>RT</id>
 			<build>
 				<plugins>
 					<plugin>
@@ -46,6 +46,7 @@
 				</plugins>
 			</build>
 		</profile>
+		
 		<profile>
 			<id>ST</id>
 			<build>
