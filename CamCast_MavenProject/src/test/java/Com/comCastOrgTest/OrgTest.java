@@ -20,4 +20,9 @@ public class OrgTest {
 	{
 		System.out.println("execute deletOrgTest ");
 	}
+	@Test(groups = "RegressionTest")
+	public void searchOrgTest()
+	{
+		System.out.println("execute searchOrgTest ");
+	}
 }
