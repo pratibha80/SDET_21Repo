@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-22T08:40:31Z" name="Suite" finished-at="2021-09-22T08:40:31Z" duration-ms="110">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="ContactTest.CreatContactTest()[pri:0, instance:Com.comCastTest.ContactTest@352c1b98]" name="CreatContactTest" class="Com.comCastTest.ContactTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="ContactTest.CreatWithOrgTest()[pri:0, instance:Com.comCastTest.ContactTest@352c1b98]" name="CreatWithOrgTest" class="Com.comCastTest.ContactTest"/>
+        <method signature="ContactTest.deletContactTest()[pri:0, instance:Com.comCastTest.ContactTest@352c1b98]" name="deletContactTest" class="Com.comCastTest.ContactTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test started-at="2021-09-22T08:40:31Z" name="Test" finished-at="2021-09-22T08:40:31Z" duration-ms="110">
+      <class name="Com.comCastTest.ContactTest">
+        <test-method signature="CreatContactTest()[pri:0, instance:Com.comCastTest.ContactTest@352c1b98]" started-at="2021-09-22T08:40:31Z" name="CreatContactTest" finished-at="2021-09-22T08:40:31Z" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatContactTest -->
+        <test-method signature="CreatWithOrgTest()[pri:0, instance:Com.comCastTest.ContactTest@352c1b98]" started-at="2021-09-22T08:40:31Z" name="CreatWithOrgTest" finished-at="2021-09-22T08:40:31Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatWithOrgTest -->
+        <test-method signature="deletContactTest()[pri:0, instance:Com.comCastTest.ContactTest@352c1b98]" started-at="2021-09-22T08:40:31Z" name="deletContactTest" finished-at="2021-09-22T08:40:31Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletContactTest -->
+      </class> <!-- Com.comCastTest.ContactTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
