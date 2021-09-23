@@ -10,8 +10,8 @@ public class OrgTest {
 	{
 		
 		System.out.println("execute CreatOrgTest ");
-		String BROWSER = System.getProperty("browser");
-		String ENV = System.getProperty("url");
+		String BROWSER = System.getProperty("chrome");
+		String ENV = System.getProperty("http://testenv.com");
 		System.out.println("BROWSER====>"+BROWSER +"   ,URL===>"+ ENV);
 	}
  
