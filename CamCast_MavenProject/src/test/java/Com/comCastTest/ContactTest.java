@@ -8,8 +8,8 @@ public class ContactTest {
 	{
 		System.out.println("execute CreatContactTest ");
 		System.out.println("execute CreatOrgTest ");
-		String BROWSER = System.getProperty("chrome");
-		String ENV = System.getProperty("http://testenv.com");
+		String BROWSER = System.getProperty("browser");
+		String ENV = System.getProperty("url");
 		System.out.println("BROWSER====>"+BROWSER +"   ,URL===>"+ ENV);
 	}
  
